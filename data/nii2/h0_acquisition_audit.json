@@ -1,0 +1,40 @@
+{
+  "checked_date": "2026-11-05",
+  "mou": {
+    "source": "https://arxiv.org/abs/2602.02872",
+    "public_archive": "data/references/raw/mou2026_source.tar",
+    "status": "Numerical H0 not obtained; no matrices in downloaded source archive",
+    "available": [
+      "DFT/Wannier/NTO construction settings",
+      "Slater values and broadening",
+      "current/dipole formulas",
+      "AMF and spin-state projection procedures"
+    ],
+    "request": [
+      "final 60x60 H1p and same-basis optical matrices",
+      "interaction tensor and AMF correction with ordering/factors/signs",
+      "NTO rotations plus original orbital positions/current matrices if not exported",
+      "low-energy nine states and spin mapping",
+      "complex SHG reference at 1.20373 and 1.25 eV",
+      "timing and convergence metadata"
+    ],
+    "contact": "winters@wfu.edu"
+  },
+  "fan": {
+    "source": "https://doi.org/10.1038/s41524-026-02184-w",
+    "status": "Literal nearest-neighbor H0 reconstructed as sparse 4845x4845 in inferred nominal 16-electron sector",
+    "output": "outputs/fan_cluster_h0.npz",
+    "material_shg_ready": false,
+    "request": [
+      "confirmation of electron/hole, SOC and Delta conventions",
+      "reference cluster matrices/eigenvalues and filling",
+      "operator and inversion conventions for Eq.14; electromagnetic units/prefactors",
+      "bulk optical model and broadening appropriate to 1030 nm"
+    ],
+    "contacts": [
+      "emil.bostrom@mpsd.mpg.de",
+      "angel.rubio@mpsd.mpg.de"
+    ]
+  },
+  "scope": "No emails sent; reconstructed matrix is local and convention-dependent, not author-exported H0 or bulk NiI2 prediction."
+}

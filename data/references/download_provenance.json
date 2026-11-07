@@ -1,0 +1,117 @@
+[
+  {
+    "file": "fan2026.pdf",
+    "url": "https://www.nature.com/articles/s41524-026-02184-w.pdf?error=cookies_not_supported",
+    "status": "downloaded",
+    "bytes": 1784232,
+    "sha256": "ebc44311ea818b4b0c93b2ebf7fa9fbd3da11bee38b55fc44f3b7f99fa18945d"
+  },
+  {
+    "file": "gao2024_supplement.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07678-5/MediaObjects/41586_2024_7678_MOESM1_ESM.pdf",
+    "status": "downloaded",
+    "bytes": 11394876,
+    "sha256": "59de4ad225cc60a301e0da80eeef39617053d59e069477018db8d91a1e636a7c"
+  },
+  {
+    "file": "gao2024_fig2.zip",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07678-5/MediaObjects/41586_2024_7678_MOESM4_ESM.zip",
+    "status": "downloaded",
+    "bytes": 363347,
+    "sha256": "47937b8721c5fc56c92b00f6a2da59a3771d707ca1a950a03575cad470c7a559",
+    "members": [
+      "2023-12-23031B-f2/~$Figure2cdef_Tr-SHGpol.xlsx",
+      "2023-12-23031B-f2/Figure2a_T-dependent_SHG.xlsx",
+      "2023-12-23031B-f2/Figure2b_T-dependent_Tr-SHG.xlsx",
+      "2023-12-23031B-f2/Figure2cdef_Tr-SHGpol.xlsx"
+    ]
+  },
+  {
+    "file": "gao2024_fig4.xlsx",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07678-5/MediaObjects/41586_2024_7678_MOESM6_ESM.xlsx",
+    "status": "downloaded",
+    "bytes": 60532,
+    "sha256": "d5ed6db622da43c560cfbb27e00650ec06ca7d5c118b635a15970061aaaa8aad",
+    "members": [
+      "[Content_Types].xml",
+      "_rels/.rels",
+      "xl/workbook.xml",
+      "xl/_rels/workbook.xml.rels",
+      "xl/worksheets/sheet1.xml",
+      "xl/worksheets/sheet2.xml",
+      "xl/worksheets/sheet3.xml",
+      "xl/worksheets/sheet4.xml",
+      "xl/worksheets/sheet5.xml",
+      "xl/theme/theme1.xml",
+      "xl/sharedStrings.xml",
+      "xl/styles.xml",
+      "xl/worksheets/_rels/sheet1.xml.rels",
+      "xl/worksheets/_rels/sheet2.xml.rels",
+      "xl/worksheets/_rels/sheet3.xml.rels",
+      "xl/worksheets/_rels/sheet4.xml.rels",
+      "xl/worksheets/_rels/sheet5.xml.rels",
+      "xl/tables/table3.xml",
+      "xl/queryTables/queryTable3.xml",
+      "xl/tables/table4.xml",
+      "customXml/item1.xml",
+      "customXml/itemProps1.xml",
+      "docProps/core.xml",
+      "docProps/app.xml",
+      "xl/queryTables/queryTable4.xml",
+      "xl/queryTables/queryTable5.xml",
+      "xl/connections.xml",
+      "xl/tables/table1.xml",
+      "xl/queryTables/queryTable1.xml",
+      "xl/tables/table2.xml",
+      "xl/queryTables/queryTable2.xml",
+      "xl/tables/_rels/table1.xml.rels",
+      "xl/tables/_rels/table2.xml.rels",
+      "xl/tables/_rels/table3.xml.rels",
+      "xl/tables/_rels/table4.xml.rels",
+      "xl/tables/_rels/table5.xml.rels",
+      "customXml/_rels/item1.xml.rels",
+      "xl/tables/table5.xml"
+    ]
+  },
+  {
+    "file": "gao2024_fig2a_static.xlsx",
+    "status": "extracted unchanged from source ZIP",
+    "parent_file": "gao2024_fig2.zip",
+    "zip_member": "2023-12-23031B-f2/Figure2a_T-dependent_SHG.xlsx",
+    "bytes": 21459,
+    "sha256": "7aec9e3731d3b7f5abbfdc2fdadefc541158ded84ee36b3ec74a176a3d6a6ea8",
+    "inspection": "Sheet1 A3:R76; duplicate angle 55 degrees retained"
+  },
+  {
+    "file": "fan2026_supplement.pdf",
+    "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41524-026-02184-w/MediaObjects/41524_2026_2184_MOESM1_ESM.pdf",
+    "status": "downloaded",
+    "bytes": 1588016,
+    "sha256": "3a30e5e1102ea72f8a9b61c16fa6c4ebe90e60d053e6aa67680ec14a2e575003"
+  },
+  {
+    "file": "mou2026.pdf",
+    "url": "https://arxiv.org/pdf/2602.02872v1",
+    "status": "downloaded",
+    "bytes": 5091550,
+    "sha256": "9d8d2767ed3a79c718a3b55e7afbc02629ceaeb73bafa332b88bbf86a258ebde"
+  },
+  {
+    "file": "mou2026_source.tar",
+    "url": "https://arxiv.org/src/2602.02872v1",
+    "members": [
+      "00README.json",
+      "figures",
+      "figures/Fig_1.pdf",
+      "figures/Fig_3.pdf",
+      "figures/Fig_2.pdf",
+      "figures/Fig_4.pdf",
+      "nonlinear.bib",
+      "v3.bbl",
+      "v3.tex"
+    ],
+    "status": "downloaded",
+    "bytes": 4791177,
+    "sha256": "0fb4ce1373e0d6e8a8bfe2b603cf6c872b2dc602da07a086a0e1d43040dcd49c"
+  }
+]

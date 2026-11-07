@@ -1,0 +1,26 @@
+{
+  "material": "bulk NiI2, low-temperature helimagnetic phase",
+  "status": "incomplete",
+  "target_wavelength_nm": 1030,
+  "source": "https://arxiv.org/html/2602.02872v1",
+  "files": {
+    "hamiltonian": null,
+    "optical_operators": null,
+    "initial_state": null,
+    "basis_and_gauge_metadata": null,
+    "literature_response": null,
+    "experimental_response": "../references/raw/gao2024_fig2a_static.xlsx"
+  },
+  "note": "No synthetic numbers or digitized figure estimates substitute for missing electronic matrices. An exact-material calculation is not available. Current active H0 is Gao spin model, recorded separately; it cannot fill the missing Mou electronic-H0 entry.",
+  "experimental_reference_status": "Downloaded and inspected Gao Figure 2a static SHG; not an independent quantum-model validation.",
+  "active_material_branch": "hybrid_gao_density_retained_optics",
+  "hybrid_branch": {
+    "status": "computed declared approximation; experimental disagreement remains",
+    "result_file": "../../outputs/hybrid_shg_report.json",
+    "documentation": "../../docs/hybrid_gao_optical.md",
+    "domain_count": 1,
+    "physical_parameters_fitted": false,
+    "validated_bulk_nii2": false
+  },
+  "scope": "Missing-input audit for direct Mou electronic-model reproduction; the computed hybrid is recorded separately."
+}

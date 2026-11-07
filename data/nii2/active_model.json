@@ -1,0 +1,24 @@
+{
+  "material_h0_source": "Gao et al. 2024",
+  "source": "https://doi.org/10.1038/s41586-024-07678-5",
+  "kind": "hybrid Gao magnetic density / retained electronic optical operator",
+  "finite_realization": "7-site open S=1 triangular cluster",
+  "hamiltonian_file": "../../outputs/gao_spin_h0.npz",
+  "matrix_unit": "eV",
+  "primary_j2_source": "Supplementary Table S1 (-0.32 meV)",
+  "h0_implemented": true,
+  "optical_shg_ready": true,
+  "missing": "physical validation, complete optical pathways, converged small quantum reduction, bulk domain/state and propagation treatment",
+  "hybrid_shg_computed": true,
+  "validated_bulk_optical_shg": false,
+  "matched_pure_gao_optical_operator_available": false,
+  "optical_hamiltonian_source": "unchanged Fan-model electronic excitation energies and point-orbital dipoles",
+  "domain_selector_mev": 0.05,
+  "temperature_k": 1.63,
+  "hybrid_report": "../../outputs/hybrid_shg_report.json",
+  "notebook_model_count": {
+    "illustrative": 1,
+    "material": 1
+  },
+  "cost_report": "../../outputs/hybrid_benchmark.json"
+}

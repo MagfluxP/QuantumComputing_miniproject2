@@ -1,0 +1,10 @@
+{
+  "search_note":"Google Scholar interface was inaccessible; primary publisher pages, repositories and supplements were checked directly.",
+  "sources":[
+    {"id":"mou2026","citation":"Mou and Winter, arXiv:2602.02872v1 (2026)","url":"https://arxiv.org/html/2602.02872v1","provides":"electronic cluster and dynamical SHG-operator construction","use":"closest optical SHG theory reference","limitation":"complete numerical matrix bundle not located"},
+    {"id":"gao2024","citation":"Gao, Peng et al., Nature 632, 273-279 (2024)","url":"https://doi.org/10.1038/s41586-024-07678-5","provides":"spin Hamiltonian, effective polarization, bulk-like experimental SHG/trSHG, source-data links","use":"experiment and low-energy spin/polarization context","limitation":"effective P is not the optical-frequency SHG operator"},
+    {"id":"fan2026","citation":"Fan et al., npj Computational Materials 12, 205 (2026)","url":"https://doi.org/10.1038/s41524-026-02184-w","provides":"electronic interaction and hopping parameters, SOC and polarization matrix formulas","use":"reconstructible local electronic-model primitives","limitation":"single-layer cavity model, not validated bulk optical SHG"},
+    {"id":"occhialini2024","citation":"Occhialini et al., Physical Review X 14, 031007 (2024)","url":"https://doi.org/10.1103/PhysRevX.14.031007","provides":"experiment-constrained charge-transfer multiplet parameters, Table I and Appendices A-B","use":"electronic-excitation validation","limitation":"core-level XAS/RIXS operators cannot be substituted for optical SHG dipoles"},
+    {"id":"li2023","citation":"Li et al., Physical Review Letters 131, 036701 (2023)","url":"https://doi.org/10.1103/PhysRevLett.131.036701","provides":"effective spin model with anisotropic interactions","use":"magnetic-state validation","limitation":"does not by itself supply optical SHG response coefficients"}
+  ]
+}

@@ -1,0 +1,19 @@
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.revision-backup-*/
+
+tmp/
+
+# Local reading copies; provenance is retained in data/references/.
+/0b6fe5_a8fd69236526414abb5aa85b9da3e4db.pdf
+/data/references/raw/*.pdf
+/data/references/raw/*.zip
+/data/references/raw/*.tar
+/data/references/raw/*.tex
+/data/references/raw/*.bib

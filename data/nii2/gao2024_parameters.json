@@ -1,0 +1,64 @@
+{
+  "source": "https://doi.org/10.1038/s41586-024-07678-5",
+  "title": "Giant chiral magnetoelectric oscillations in a van der Waals multiferroic",
+  "year": 2024,
+  "spin_model": {
+    "J1_meV": -5.03,
+    "J2_meV": 0.32,
+    "J3_meV": 3.95,
+    "B_meV": -0.89,
+    "locator": "Methods, Effective spin Hamiltonian, Eqs. 1-2",
+    "supplementary_J2_meV": -0.32,
+    "source_discrepancy": "Main-text Methods state J2=+0.32 meV; Supplementary Table S1 lists -0.32 meV. Do not silently choose a sign."
+  },
+  "polarization": {
+    "formula": "P = lambda*t^3/Delta^4 * d_dp * d_vector * [n_hat dot (S1 cross S2)]",
+    "locator": "Methods Eq. 3",
+    "operator_scope": "effective low-energy spin polarization, not full optical SHG operator"
+  },
+  "experiment": {
+    "probe_energy_ev_reported": 1.2,
+    "pump_energy_ev_reported": 1.13,
+    "probe_repetition_hz": 100000,
+    "probe_pulse_fs": 270,
+    "pump_pulse_fs": 100,
+    "typical_thickness_nm": 100,
+    "locator": "Methods, Sample preparation and optical measurements; Static and time-resolved SHG",
+    "note": "Reported probe energy is rounded. Match wavelength, static/dynamic observable, polarization and normalization before comparison."
+  },
+  "missing_spin_details": [],
+  "source_data": [
+    {
+      "figure": "2",
+      "file": "gao2024_fig2.zip",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07678-5/MediaObjects/41586_2024_7678_MOESM4_ESM.zip",
+      "interpretation": "Downloaded; static Figure 2a Sheet1 A3:R76 inspected and analyzed; time-dependent workbooks not analyzed."
+    },
+    {
+      "figure": "4",
+      "file": "gao2024_fig4.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-024-07678-5/MediaObjects/41586_2024_7678_MOESM6_ESM.xlsx",
+      "interpretation": "magnetoelectric/polarization dynamics, not automatically an equilibrium SHG amplitude reference"
+    }
+  ],
+  "static_chi_pm_per_v": {
+    "xxy": -14.6,
+    "yxx": 8.6,
+    "yyy": 19.7,
+    "locator": "Supplementary Table S3, printed page 19 (PDF page 20)",
+    "status": "experimental calibration/fitted response, not ab-initio prediction",
+    "calibration": "probe 270 fs, spot 1 um, penetration 20 nm at harmonic energy 2.4 eV"
+  },
+  "spin_anisotropy_meV": {
+    "J1r_xx": -0.13,
+    "J1r_yy": 0.82,
+    "J1r_zz": -0.69,
+    "J1r_xy": -0.96,
+    "J3r_xx": 0.08,
+    "J3r_yy": -0.02,
+    "J3r_zz": -0.06,
+    "J3r_xy": -0.045,
+    "Azz": 0.44,
+    "locator": "Supplementary Table S1, printed page 8 (PDF page 9)"
+  }
+}

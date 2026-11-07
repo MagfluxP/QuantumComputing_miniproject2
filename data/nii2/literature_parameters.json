@@ -1,0 +1,124 @@
+{
+  "source": "https://arxiv.org/html/2602.02872v1",
+  "version": "arXiv:2602.02872v1, 2 February 2026",
+  "authors": "Banasree S. Mou and Stephen M. Winter",
+  "parameters": [
+    {
+      "name": "broadening_eta_ev",
+      "value": 0.5,
+      "unit": "eV",
+      "locator": "main text, NiI2 Results, paragraph describing Figure 3",
+      "meaning": "Broadening of response poles; not the toy inversion-breaking parameter"
+    },
+    {
+      "name": "U_t2g_ev",
+      "value": 4.0,
+      "unit": "eV",
+      "locator": "End Matter I.1, after Eq. 17"
+    },
+    {
+      "name": "J_t2g_ev",
+      "value": 0.8,
+      "unit": "eV",
+      "locator": "End Matter I.1, after Eq. 17"
+    },
+    {
+      "name": "F0_dd_ev",
+      "value": 2.82,
+      "unit": "eV",
+      "locator": "End Matter I.1, after Eq. 17"
+    },
+    {
+      "name": "F2_dd_ev",
+      "value": 8.93,
+      "unit": "eV",
+      "locator": "End Matter I.1, after Eq. 17"
+    },
+    {
+      "name": "F4_dd_ev",
+      "value": 5.58,
+      "unit": "eV",
+      "locator": "End Matter I.1, after Eq. 17"
+    },
+    {
+      "name": "metal_spin_orbitals",
+      "value": 20,
+      "unit": "count",
+      "locator": "main text, Computational Approach"
+    },
+    {
+      "name": "ligand_spin_ntos",
+      "value": 40,
+      "unit": "count",
+      "locator": "main text, Computational Approach"
+    },
+    {
+      "name": "electrons",
+      "value": 56,
+      "unit": "count",
+      "locator": "main text, Computational Approach"
+    },
+    {
+      "name": "fock_dimension",
+      "value": 487635,
+      "unit": "count",
+      "locator": "main text, Computational Approach"
+    },
+    {
+      "name": "reference_fundamental_ev",
+      "value": 1.25,
+      "unit": "eV",
+      "locator": "main text, discussion of Figure 3 and Figure 4"
+    },
+    {
+      "name": "bulk_transition_k",
+      "value": 58,
+      "unit": "K",
+      "locator": "Introduction"
+    },
+    {
+      "name": "spin_plane_angle_deg",
+      "value": 55,
+      "unit": "degree",
+      "locator": "Introduction; uncertainty +/-10 degrees"
+    }
+  ],
+  "hamiltonian_form": "H0 = H_1p + H_2p + H_DC (Eq. 6)",
+  "optical_convention": "L(omega) = d + i*j/(hbar*omega); site-centered d omitted in reported calculations (Eqs. 8-9)",
+  "double_counting": "Around Mean-Field; average d spin-orbital occupation 4/5 (Eq. 18)",
+  "availability": "Scalar inputs extracted; numerical hopping, optical and NTO matrices not located in the paper or targeted repository searches. Not evidence that no author-held data exist.",
+  "first_principles_settings": {
+    "method": "GGA+SOC, FLEUR",
+    "k_mesh": [
+      7,
+      7,
+      7
+    ],
+    "Kmax_inverse_bohr": 3.9,
+    "Gmax_inverse_bohr": 11.7,
+    "lmax": 10,
+    "wannier_mesh": [
+      4,
+      4,
+      4
+    ],
+    "wannier_localization_steps": 0,
+    "nto_input_ligand_spin_orbitals": 768,
+    "nto_polarizations": [
+      "x",
+      "y"
+    ],
+    "nto_spin_orbitals_retained": 40,
+    "mean_d_spin_orbital_occupation": 0.8,
+    "locator": "End Matter, Cluster Calculations"
+  },
+  "source_checks": {
+    "archive_contents": "Manuscript TeX, bibliography, four figure PDFs; no numerical matrices",
+    "j_conversion_printed": "J_t2g=(3 F2+5 F4)/49",
+    "j_from_printed_conversion_ev": 1.1161224489795918,
+    "j_stated_ev": 0.8,
+    "consistency": "Unresolved: printed conversion gives about 1.116 eV instead of stated 0.8 eV; preserve reported Slater values without silently correcting.",
+    "locator": "Downloaded PDF page 8, after Eq.16; HTML after Eq.17; also manuscript TeX",
+    "equation_number_note": "PDF and HTML equation numbers differ in End Matter; use section and page as well."
+  }
+}

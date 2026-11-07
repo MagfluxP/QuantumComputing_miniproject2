@@ -1,0 +1,67 @@
+{
+  "model": "illustrative three-level optical model, not NiI2",
+  "wavelength_nm": 1030,
+  "gamma_ev": 0.05,
+  "reference_beta_real": 1.329198186564183,
+  "reference_beta_imag": 0.46456705124724973,
+  "classical_reference_median_s": 1.1541997082531452e-05,
+  "classical_reference_repeats": 101,
+  "simulation_repeats": 3,
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "python": "3.12.6",
+  "numpy": "2.5.4",
+  "qiskit": "2.6.2",
+  "settings": "CPU Statevector, ideal/no noise; no hardware backend",
+  "rows": [
+    {
+      "degree": 32,
+      "phase_synthesis_s": 0.3126721659791656,
+      "circuit_construction_s": 0.01736729097319767,
+      "statevector_median_s": 0.0006586660165339708,
+      "statevector_min_s": 0.0006409169873222709,
+      "statevector_max_s": 0.0007855840376578271,
+      "response_assembly_s": 2.516602398827672e-05,
+      "phase_error_grid": 3.219646771412954e-15,
+      "smooth_window_error_grid": 0.06977466764042628,
+      "product_real": 0.11993532514322576,
+      "product_imag": -2.427632204916516e-16,
+      "product_absolute_error": 6.467485677423557e-05,
+      "beta_real": 1.328481805711345,
+      "beta_imag": 0.4643166695180682,
+      "beta_absolute_error": 0.0007588758374206947,
+      "beta_relative_error": 0.0005389571397857259,
+      "qubits_product": 15,
+      "qubits_hadamard": 16,
+      "total_normalization": 4.096000000000001,
+      "logical_signal_calls_unoptimized_realpart": 128,
+      "shots_exact_statevector": 0
+    }
+  ],
+  "sampling": [
+    {
+      "shots_per_quadrature": 1000,
+      "total_shots": 2000,
+      "rms_statistical_error": 0.18611847052514613
+    },
+    {
+      "shots_per_quadrature": 10000,
+      "total_shots": 20000,
+      "rms_statistical_error": 0.05814682650352965
+    },
+    {
+      "shots_per_quadrature": 100000,
+      "total_shots": 200000,
+      "rms_statistical_error": 0.017366461326852982
+    },
+    {
+      "shots_per_quadrature": 1000000,
+      "total_shots": 2000000,
+      "rms_statistical_error": 0.0057739364833777765
+    }
+  ],
+  "literature_accuracy": null,
+  "experimental_accuracy": null,
+  "literature_runtime_s": null,
+  "quantum_hardware_runtime_s": null,
+  "unavailable_reason": "No validated matched material prediction, complex theoretical response or external timing logs"
+}

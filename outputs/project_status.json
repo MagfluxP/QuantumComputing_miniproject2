@@ -1,0 +1,16 @@
+{
+  "model": "Gao spin density / retained electronic optical operator hybrid",
+  "temperature_k": 1.63,
+  "domain_selector_mev": 0.05,
+  "domain_count": 1,
+  "physical_parameters_fitted": false,
+  "quantum_vs_same_16_classical_relative_error": 4.67629626842495e-11,
+  "hybrid512_all_data_relative_l2": 0.6469079224622467,
+  "hybrid512_heldout_relative_l2": 0.7733037205968958,
+  "quantum_optical_reduction_converged": false,
+  "validated_bulk_prediction": false,
+  "quantum_computational_advantage_demonstrated": false,
+  "timing_scope": "same-process, same 18 current-model scalar optical responses, preloaded inputs",
+  "sampling_is_hardware_measurement": false,
+  "toy_qsp_relative_error": 0.0005389571397857259
+}

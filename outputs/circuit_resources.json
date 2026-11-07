@@ -1,0 +1,179 @@
+{
+  "basis_gates": [
+    "u",
+    "cx"
+  ],
+  "connectivity": "all-to-all; coupling_map=None",
+  "optimization_level": 1,
+  "seed_transpiler": 7,
+  "simulator": "qiskit.quantum_info.Statevector, ideal CPU",
+  "executed_shots": 0,
+  "dipole": {
+    "qubits": 5,
+    "depth": 128,
+    "cx": 80,
+    "u": 104,
+    "compile_s": 0.045824917033314705
+  },
+  "rows": [
+    {
+      "degree": 4,
+      "raw_sequence_signal_calls": 4,
+      "two_filters_unoptimized_controlled_signal_calls": 16,
+      "raw_qsp": {
+        "qubits": 3,
+        "depth": 77,
+        "cx": 40,
+        "u": 66,
+        "compile_s": 0.002508500008843839
+      },
+      "dense_realpart_filter_1": {
+        "qubits": 4,
+        "depth": 102,
+        "cx": 52,
+        "u": 94,
+        "compile_s": 0.0032078329822979867
+      },
+      "dense_realpart_filter_2": {
+        "qubits": 4,
+        "depth": 103,
+        "cx": 52,
+        "u": 95,
+        "compile_s": 0.002749540959484875
+      },
+      "base_product_component_sum_cx": 344,
+      "base_product_component_sum_u": 501,
+      "product_system_qubits": 2,
+      "product_work_qubits": 13,
+      "product_total_qubits": 15,
+      "hadamard_total_qubits": 16,
+      "accepted_work_zero_probability": 0.006713099442054981,
+      "expected_attempts_if_postselecting_state": 148.96248873290708,
+      "product_normalization": 4.096000000000001
+    },
+    {
+      "degree": 8,
+      "raw_sequence_signal_calls": 8,
+      "two_filters_unoptimized_controlled_signal_calls": 32,
+      "raw_qsp": {
+        "qubits": 3,
+        "depth": 153,
+        "cx": 80,
+        "u": 130,
+        "compile_s": 0.0027323749964125454
+      },
+      "dense_realpart_filter_1": {
+        "qubits": 4,
+        "depth": 102,
+        "cx": 52,
+        "u": 94,
+        "compile_s": 0.0028251250041648746
+      },
+      "dense_realpart_filter_2": {
+        "qubits": 4,
+        "depth": 103,
+        "cx": 52,
+        "u": 95,
+        "compile_s": 0.0029290420352481306
+      },
+      "base_product_component_sum_cx": 344,
+      "base_product_component_sum_u": 501,
+      "product_system_qubits": 2,
+      "product_work_qubits": 13,
+      "product_total_qubits": 15,
+      "hadamard_total_qubits": 16,
+      "accepted_work_zero_probability": 0.004851323618855719,
+      "expected_attempts_if_postselecting_state": 206.12931203213978,
+      "product_normalization": 4.096000000000001
+    },
+    {
+      "degree": 16,
+      "raw_sequence_signal_calls": 16,
+      "two_filters_unoptimized_controlled_signal_calls": 64,
+      "raw_qsp": {
+        "qubits": 3,
+        "depth": 305,
+        "cx": 160,
+        "u": 258,
+        "compile_s": 0.00460904196370393
+      },
+      "dense_realpart_filter_1": {
+        "qubits": 4,
+        "depth": 103,
+        "cx": 52,
+        "u": 95,
+        "compile_s": 0.0031753749935887754
+      },
+      "dense_realpart_filter_2": {
+        "qubits": 4,
+        "depth": 103,
+        "cx": 52,
+        "u": 95,
+        "compile_s": 0.0036538749700412154
+      },
+      "base_product_component_sum_cx": 344,
+      "base_product_component_sum_u": 502,
+      "product_system_qubits": 2,
+      "product_work_qubits": 13,
+      "product_total_qubits": 15,
+      "hadamard_total_qubits": 16,
+      "accepted_work_zero_probability": 0.002811064858956482,
+      "expected_attempts_if_postselecting_state": 355.73707835799206,
+      "product_normalization": 4.096000000000001
+    },
+    {
+      "degree": 32,
+      "raw_sequence_signal_calls": 32,
+      "two_filters_unoptimized_controlled_signal_calls": 128,
+      "raw_qsp": {
+        "qubits": 3,
+        "depth": 609,
+        "cx": 320,
+        "u": 514,
+        "compile_s": 0.005570750043261796
+      },
+      "dense_realpart_filter_1": {
+        "qubits": 4,
+        "depth": 102,
+        "cx": 52,
+        "u": 94,
+        "compile_s": 0.0028647080180235207
+      },
+      "dense_realpart_filter_2": {
+        "qubits": 4,
+        "depth": 103,
+        "cx": 52,
+        "u": 95,
+        "compile_s": 0.0029329589451663196
+      },
+      "base_product_component_sum_cx": 344,
+      "base_product_component_sum_u": 501,
+      "product_system_qubits": 2,
+      "product_work_qubits": 13,
+      "product_total_qubits": 15,
+      "hadamard_total_qubits": 16,
+      "accepted_work_zero_probability": 0.003417030123881108,
+      "expected_attempts_if_postselecting_state": 292.65179519816076,
+      "product_normalization": 4.096000000000001
+    }
+  ],
+  "compilation_scope": "raw three-qubit QSP sequence and dense small dipole/filter components, including PREP/SELECT/UNPREP; component sums are not a compiled full controlled-Hadamard circuit",
+  "success_scope": "probability sums over all four system outputs with all work flags zero; expected attempts applies only to postselected state generation, not an extra factor multiplying Hadamard shot estimates",
+  "oracle_scope": "small diagonal signal matrix and dense matrices constructed classically, not scalable chemistry oracles",
+  "material_logical_resources": {
+    "electronic_states": 16,
+    "liouville_system_qubits": 8,
+    "fresh_work_qubits": 4,
+    "hadamard_control_qubits": 1,
+    "base_operations": [
+      "density loading",
+      "C",
+      "R1",
+      "C",
+      "R2",
+      "dipole readout"
+    ],
+    "physical_basis_synthesis": "not attempted for large dense material blocks; no physical material gate count claimed",
+    "all_18_evaluations": "18 base overlaps; one additional real+imag ideal Hadamard witness in saved calculator; no hardware samples"
+  }
+}
