@@ -1,4 +1,4 @@
-# Quantum algorithm for SHG: Gao-state hybrid
+# Quantum algorithm for nonlinear optical response: second harmonic generation (SHG)
 
 Open **[notebooks/01_shg_walkthrough.ipynb](notebooks/01_shg_walkthrough.ipynb)**.
 The executed notebook contains one illustrative model and one material model:
